@@ -42,10 +42,12 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
   1. eslint, prettier 익스텐션 설치
   1. 에디터 재실행
 
--
-
-###
+#### scss 설정
 
 ```
-
+npm install --save-dev node-sass sass-loader
 ```
+
+#### code convention
+
+#####
