@@ -1,8 +1,5 @@
-<style lang="scss">
-@import './assets/scss/GlobalStyle.scss';
-</style>
-
 <script>
+import './scss/GlobalStyle.scss';
 import LandingPage from './page/LandingPage.vue';
 
 export default {

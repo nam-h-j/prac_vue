@@ -85,6 +85,9 @@
 		</ul>
 	</div>
 </template>
+<style lang="scss">
+@import './HelloWorld.scss';
+</style>
 
 <script>
 export default {
@@ -96,6 +99,3 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="scss">
-@import './HelloWorld.scss';
-</style>
