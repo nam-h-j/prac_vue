@@ -11,6 +11,6 @@ export default {
 <template>
   <div>
     <h1>페이지 영역</h1>
-    <LandingPageLayout>슬롯 잘 작동하니?</LandingPageLayout>
+    <LandingPageLayout>슬롯 잘 작동?</LandingPageLayout>
   </div>
 </template>
