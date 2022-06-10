@@ -35,6 +35,10 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - prettier, eslint 설정 파일
 
   1. setting.json, .eslintrc.js 설정 파일 추가
+  1. 설치
+     npm install eslint --save -dev
+     npm install --save-dev eslint-plugin-prettier eslint-config-prettier
+     yarn add eslint-plugin-prettier eslint-config-prettier --dev
   1. package.json에 아래 스크립트 추가
      - "lint": "eslint --ext .js,.vue src",
      - "fix": "eslint --fix --ext .js,.vue src"
