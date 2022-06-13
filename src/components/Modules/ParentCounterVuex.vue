@@ -1,12 +1,12 @@
 <script>
 // App.vue(Parent)
-import ChildCounter from "./ChildCounter.vue";
+import ChildCounterVuex from "./ChildCounterVuex.vue";
 import "./ParentCountVuex.scss";
 
 export default {
   name: "ParentCountVuex",
   components: {
-    ChildCounter,
+    ChildCounterVuex,
   },
   methods: {
     // 이벤트 추가
@@ -22,11 +22,9 @@ export default {
 
 <template>
   <div class="ParentCountVuex">
-    <p>Parent Count : {{ $store.state.countSlice.count }}</p>
+    <p>Parent Count Vuex : {{ $store.state.countSlice.count }}</p>
     <button @click="addCount">addition</button>
     <button @click="subCount">subtract</button>
-    <ChildCounter
-      v-bind:parentCount="$store.state.countSlice.count"
-    ></ChildCounter>
+    <ChildCounterVuex />
   </div>
 </template>

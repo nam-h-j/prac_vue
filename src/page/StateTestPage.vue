@@ -12,7 +12,7 @@ export default {
 
 <template>
   <div>
-    <h1>기본 스테이트로 관리하기 테스트 페이지</h1>
+    <h1>state test Page using data() and props</h1>
     <PageLayout><ParentCounter /></PageLayout>
   </div>
 </template>

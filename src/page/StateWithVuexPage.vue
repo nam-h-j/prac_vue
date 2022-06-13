@@ -13,7 +13,7 @@ export default {
 
 <template>
   <div>
-    <h1>뷰엑스로 관리하기 테스트 페이지</h1>
+    <h1>state test page with vuex</h1>
     <PageLayout><ParentCounterVuex /></PageLayout>
   </div>
 </template>
