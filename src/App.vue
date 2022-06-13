@@ -1,17 +1,14 @@
 <script>
 import "./scss/GlobalStyle.scss";
-import LandingPage from "./page/LandingPage.vue";
 
 export default {
   name: "App",
-  components: {
-    LandingPage,
-  },
+  components: {},
 };
 </script>
 
 <template>
   <div id="app">
-    <LandingPage />
+    <router-view />
   </div>
 </template>

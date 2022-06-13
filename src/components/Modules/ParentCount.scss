@@ -1,0 +1,17 @@
+.ParentCount{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  >button{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    color: black;
+    &:hover{
+      background: black;
+      color: white;
+      transition: all .3s ease-in-out;
+    }
+  }
+}
